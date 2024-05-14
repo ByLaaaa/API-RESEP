@@ -2,7 +2,7 @@ const Food = [
     {
         id: 1,
         nama: "Soto Betawi",
-        desc: "",
+        desc: "Hai",
         Kategori: "Kuah, Santan",
         image: "",
         bahan: [],

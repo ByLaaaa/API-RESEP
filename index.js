@@ -1,9 +1,11 @@
+require("dotenv").config();
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const PORT = 9090;
+const port = process.env.PORT || 3001;
 
-const Food = require('./Food.js')
+const Food = require('./Food.js');
+const routes = require("./routes.js");
 
 // const corsOptions = {
 //     origin: 'http://localhost:5173' 
@@ -12,15 +14,18 @@ const Food = require('./Food.js')
 
 app.use(cors());
 app.use(express.json())
+app.use("/api", routes)
 
 app.listen(
-    PORT,
+    port,
     () => {
-        console.log(`Server is running on port http://localhost:${PORT}`);
+        console.log(`Server is running on port`, port);
     }
 );
 
-app.get('/food',  (req, res) => {
-    res.json(Food);
-
+app.use((err, res) => {
+    console.error(err.stack);
+    res.status(500).json({message: 'Something broke!'});
 });
+
+module.exports = app;

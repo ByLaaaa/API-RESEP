@@ -12,22 +12,22 @@ router.get("/getAllMenu", (req, res) =>
     getAllMenu(req, res)
 );
 
-router.get("/getMenu/:Food", (req, res) => {
-    let data = [];
+// router.get("/getMenu/:Food", (req, res) => {
+//     let data = [];
   
-    for (let i = 0; i < Food.length; i++) {
-      if (
-        Food[i].nama.replace(/\s+/g, "-").toLowerCase() ===
-        req.params.Food.replace(/\s+/g, "-").toLowerCase()
-      ) {
-        data.push(Foods[i]);
-      }
-    }
-    res.status(200);
-    res.send({
-      status: "success",
-      data,
-    });
-  });
+//     for (let i = 0; i < Food.length; i++) {
+//       if (
+//         Food[i].nama.replace(/\s+/g, "-").toLowerCase() ===
+//         req.params.Food.replace(/\s+/g, "-").toLowerCase()
+//       ) {
+//         data.push(Foods[i]);
+//       }
+//     }
+//     res.status(200);
+//     res.send({
+//       status: "success",
+//       data,
+//     });
+//   });
 
 module.exports = router;

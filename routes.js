@@ -1,7 +1,9 @@
+// import { Router as expressRouter /=} from 'express';
+
 const {getAllMenu} = require('./handler');
 const Food = require('./Food');
 const express = require("express")
-const router = express.Router
+const router = express.Router()
 
 router.get("/", (req, res) => {
     res.status(200);

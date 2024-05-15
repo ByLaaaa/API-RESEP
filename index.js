@@ -6,11 +6,6 @@ const port = process.env.PORT || 3001;
 const Food = require('./Food.js');
 const routes = require("./routes.js");
 
-// const corsOptions = {
-//     origin: 'http://localhost:5173' 
-// };
-
-
 app.use(cors());
 app.use(express.json())
 app.use("/api", routes)

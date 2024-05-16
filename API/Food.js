@@ -4,7 +4,7 @@ const Food = [
         nama: "Soto Betawi",
         desc: "Hai",
         Kategori: "Kuah, Santan",
-        image: "",
+        image: "SotoBetawi.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -14,7 +14,7 @@ const Food = [
         nama: "Ketoprak",
         desc: "",
         Kategori: "Kacang",
-        image: "",
+        image: "Ketoprak.jg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -24,7 +24,7 @@ const Food = [
         nama: "Sayur Besan",
         desc: "",
         Kategori: "Kuah, Santan, Sayur, Lauk, Pendamping",
-        image: "",
+        image: "sayur besan_L.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -34,7 +34,7 @@ const Food = [
         nama: "Asinan Betawi",
         desc: "",
         Kategori: "Sayur, Cemilan, Pendamping",
-        image: "",
+        image: "Asinan.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -44,7 +44,7 @@ const Food = [
         nama: "Kue Ape Pandan",
         desc: "",
         Kategori: "Kue, Santan, Cemilan",
-        image: "",
+        image: "KueApe.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -54,7 +54,7 @@ const Food = [
         nama: "Nasi Ulam",
         desc: "",
         Kategori: "Nasi, Lauk",
-        image: "",
+        image: "NasiUlam.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -64,7 +64,7 @@ const Food = [
         nama: "Semur Jengkol",
         desc: "",
         Kategori: "Kuah, Sayur, Lauk",
-        image: "",
+        image: "SemurJengkol.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -74,7 +74,7 @@ const Food = [
         nama: "Ayam Sampyok",
         desc: "",
         Kategori: "Ayam, Lauk",
-        image: "",
+        image: "AyamSamyok.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -84,7 +84,7 @@ const Food = [
         nama: "Nasi Kebuli",
         desc: "",
         Kategori: "Nasi, Lauk",
-        image: "",
+        image: "NasiKebuli.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -94,7 +94,7 @@ const Food = [
         nama: "Nasi Uduk Betawi",
         desc: "",
         Kategori: "Nasi, Santan, Lauk",
-        image: "",
+        image: "NasiUduk.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -104,7 +104,7 @@ const Food = [
         nama: "Dodol Betawi",
         desc: "",
         Kategori: "Kue, Cemilan",
-        image: "",
+        image: "Dodol.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -114,7 +114,7 @@ const Food = [
         nama: "Kue Pancong",
         desc: "",
         Kategori: "Cemilan, Kue, Santan",
-        image: "",
+        image: "KuePancong.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -124,7 +124,7 @@ const Food = [
         nama: "Kerak Telor",
         desc: "",
         Kategori: "Cemilan",
-        image: "",
+        image: "KerakTelor.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -134,7 +134,7 @@ const Food = [
         nama: "Kue Putu Mayang",
         desc: "",
         Kategori: "Kue, Santan",
-        image: "",
+        image: "PutuMayang.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""
@@ -144,7 +144,7 @@ const Food = [
         nama: "Kue Kembang Goyang",
         desc: "",
         Kategori: "Kue, Cemilan, Goreng",
-        image: "",
+        image: "KembangGoyang.jpg",
         bahan: [],
         cara: [],
         shortDesc: ""

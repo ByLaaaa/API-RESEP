@@ -4,7 +4,7 @@ const Food = [
         nama: "Soto Betawi",
         desc: "Soto Betawi adalah hidangan khas Jakarta berupa sup berkuah santan yang kaya akan rempah, disajikan dengan potongan daging sapi atau jeroan, kentang, dan tomat. Rasanya gurih dan lezat, sering dinikmati dengan tambahan emping, bawang goreng, dan perasan jeruk limau.",
         Kategori: "Kuah, Santan",
-        image: "",
+        image: "SotoBetawi.jpg",
         bahan: [
             "500 g daging sapi has bagian sandung lamur, potong-potong",
             "200 g babat sapi, rebus, potong 2 * 2 cm", 
@@ -36,14 +36,21 @@ const Food = [
             "50 g emping goreng",
             "4 buah jeruk nipis, belah jadi 2 bagian"
         ],
-        cara: [],
+        cara: [
+            "Rebus air dan daging hingga daging matang dan empuk. Potong dadu daging 3x3 cm",
+            "Saring kaldu rebusan daging, didihkan kembali dengan daging, paru, dan babat",
+            "Panaskan minyak, tumis bumbu halus bersama pala, cengkih, kayu manis, serai, lengkuas, daun jeruk, dan daun salam hingga harum. Tuang tumisan bumbu ke air rebusan daging, aduk rata. Masak dengan api sedang hingga mendidih",
+            "Tuangkan santan, Bango Kecap Manis, garam, merica bubuk, dan gula pasir. Masak hingga matang",
+            "Susun tomat dalam mangkuk, tuangkan soto, sajikan dengan bahan pelengkap lainnya"
+        ],
+        shortDesc: "",
     },
     {
         id: 2,
         nama: "Ketoprak",
         desc: "Ketoprak adalah makanan khas Jakarta yang terdiri dari lontong, tahu goreng, bihun, dan tauge, disajikan dengan bumbu kacang yang gurih, kecap manis, dan taburan bawang goreng. Hidangan ini biasanya dilengkapi dengan kerupuk dan potongan mentimun untuk menambah kesegaran. ",
         Kategori: "Sayur, Kacang, Tahu, Lontong",
-        image: "",
+        image: "Ketoprak.jg",
         bahan: [
             "2 buah tahu putih",
             "2 buah ketupat, potong",
@@ -62,14 +69,20 @@ const Food = [
             "1 sdm bawang merah goreng",
             "kerupuk kuning"
         ],
-        cara: [],
+        cara: [
+            "Goreng tahu putih hingga berkulit dan blansir taoge dengan air panas. Kemudian, haluskan kacang tanah goreng, gula merah, cabai rawit merah dan bawang putih",
+            "Tambahkan garam, air asam jawa, dan air matang secukupnya, lalu ulek kembali hingga bumbu kacang halus. Pindahkan ke mangkuk",
+            "Ambil piring saji, susun dari bawah ke atas dengan urutan sebagai berikut: ketupat, taoge, tahu, dan bihun. Setelah semua bahan lengkap di piring, tuangkan bumbu kacang",
+            "Tambahkan Bango Kecap Manis di atasnya. Terakhir, sajikan dengan taburan bawang goreng dan kerupuk"
+        ],
+        shortDesc: "",
     },
     {
         id: 3,
         nama: "Sayur Besan",
         desc: "Sayur Besan adalah hidangan tradisional Betawi yang biasanya disajikan pada acara pernikahan, terdiri dari terubuk (bungkil bunga tebu), ebi, kentang, dan kacang panjang yang dimasak dalam kuah santan beraroma rempah. Rasanya gurih dan sedikit manis, mencerminkan kekayaan kuliner Betawi.",
-        Kategori: "Sayur, Kuah, Santan",
-        image: "",
+        Kategori: "Kuah, Santan, Sayur, Lauk, Pendamping",
+        image: "sayur besan_L.jpg",
         bahan: [
             "8 batang telur terubuk/bunga tebu",
             "1 buah (200 g) kentang, kupas",
@@ -90,14 +103,20 @@ const Food = [
             "10 butir bawang merah",
             "3 siung bawang putih"
         ],
-        cara: [],
+        cara: [
+            " Kupas kulit telur terubuk, potong ujungnya, ambil isinya, potong serong menjadi 2 bagian. Potong kentang bentuk dadu 2 cm, dan potong buncis 2 cm. Kupas petai, belah-belah",
+            "Panaskan minyak dalam wajan di atas api sedang, tumis bumbu halus, masukkan daun salam, lengkuas, dan ebi hingga berbau harum. Masukkan cabai merah dan hijau, aduk hingga layu. Tuang santan, masak hingga mendidih sambil ditimba-timba agar tidak pecah",
+            "Masukkan telur terubuk, kentang, buncis, dan petai. Tambahkan garam dan gula, aduk",
+            "Masukkan soun, aduk sebentar saja, aduk, angkat. Sajikan bersama nasi putih"
+        ],
+        shortDesc:"",
     },
     {
         id: 4,
         nama: "Asinan Betawi",
         desc: "Asinan Betawi adalah hidangan segar berupa campuran potongan buah-buahan seperti nanas, mangga muda, timun, dan kacang panjang yang direndam dalam larutan air asam yang manis pedas, biasanya disajikan dengan tambahan kerupuk dan bawang goreng sebagai pelengkap.",
-        Kategori: "Kuah, Santan",
-        image: "",
+        Kategori: "Sayur, Cemilan, Pendamping",
+        image: "Asinan.jpg",
         bahan: [
             "250 g tahu putih, kukus, potong dadu",
             "125 g mi kuning, rebus, tiriskan",
@@ -124,7 +143,13 @@ const Food = [
             "Kerupuk mi",
             "Kerupuk merah"
         ],
-        cara: [],
+        cara: [
+            "Rebus air, gula merah, dan Bango Kecap Manis sambil diaduk rata",
+            "Masukkan bumbu halus termasuk Royco Kaldu Ayam ke dalam rebusan air, masak kembali hingga semua tercampur rata. Angkat dan sisihkan",
+            "Tata tahu, mi kuning, mentimun, kol, daun selada, sawi asin, lokio, dan kacang tanah goreng ke atas piring saji. Tuang saus ke atasnya",
+            "Sajikan bersama bawang goreng, kerupuk mi, dan kerupuk merah"
+        ],
+        shortDesc:"",
     },
     {
         id: 5,
@@ -142,14 +167,22 @@ const Food = [
              "10 lembar daun pandan",
              "[Taburan] 100 g tepung beras sangrai]",
             ],
-        cara: [],
+            cara:[
+                "Sangrai tepung beras+5 lembar daun pandan dengan api kecil, sambil terus diaduk2 hingga tepung terasa ringan dan berubah warna sedikit kekuningan. *patokannya daun pandan akan sangat kering tanda tepung sudah matang. Angkat dan sisihkan",
+                "Sangrai kelapa dengan api kecil sambil terus di aduk2 hingga kelapa berubah menjadi kuning kecoklatan. Angkat dan sisihkan",
+                "Rebus air+gula merah+gula pasir+5lembar daun pandan hingga gula larut dan mendidih. angkat dan saring lalu sisihkan",
+                "Penyelesaian: Campur jadi satu tepung sangrai+garam+kelapa sangrai aduk rata lalu masukkan air gula sedikit demi sedikit sambil di aduk rata hingga adonan bila di kepal bisa menyatu, hentikan pemakaian air gula",
+                "Setelah adonan semua tercampur rata, cetak dalam wadah, Cetak dan padatkan. Diamkan hingga geplak dingin lalu tabur dengan sedikit tepung beras sangrai",
+                "setelah dingin, siap dipotong-potong dan di sajikan"
+            ],
+            shortDesc:"",
     },
     {
         id: 6,
         nama: "Nasi Ulam",
         desc: " Nasi Ulam adalah hidangan nasi yang dicampur dengan rempah-rempah, daun-daunan segar seperti daun kemangi, daun jeruk purut, dan daun serai, serta bumbu-bumbu lainnya seperti serai, lengkuas, dan bawang merah yang diuleg hingga harum. Biasanya disajikan dengan lauk seperti ayam goreng, ikan bakar, atau tempe goreng.",
-        Kategori: "Nasi, Kelapa, Bihun",
-        image: "",
+        Kategori: "Nasi, Lauk, Bihun",
+        image: "NasiUlam.jpg",
         bahan: [
             "[Nasi]",
             "2 gelas beras",
@@ -195,14 +228,34 @@ const Food = [
             "1/4 sdt garam",
             "1/4 sdt merica"
         ],
-        cara: [],
+        cara: [
+            "Masak beras dengan air sampai setengah matang (jadi nasi aron)",
+            "Masukkan lengkuas, daun salam, garam, dan minyak goreng ke dalamnya (nasi setengah matang atau aron tadi). Aduk rata",
+            "Lanjutkan memasak nasi hingga benar-benar matang",
+            "Dalam wajan, masukkan semua bahan serundeng dan bumbu halusnya. Aduk-aduk dan masak hingga airnya menyusut. Koreksi rasanya",
+            "Lanjutkan memasak atau sangrai serundeng hingga kering dan berwarna kecoklatan. Aduk terus sampai parutan kelapa terasa ringan. Angkat",
+            "Panaskan sedikit minyak. Tumis bumbu halus bersama kayu manis dan pala hingga harum",
+            "Tuang air dan masukkan tahu putih. Aduk perlahan dan pastikan tahu terendam sempurna dalam air",
+            "Tambahkan kecap manis. Aduk perlahan lalu koreksi rasanya",
+            "Lanjutkan masak semur sampai kuah mengental dan sedikit menyusut. Angkat",
+            "Panaskan sedikit minyak. Tumis bumbu halus hingga harum",
+            "Masukkan wortel dan kol. Masak hingga empuk",
+            "Masukkan bihun dan kecap manis. Aduk hingga tercampur rata dan matang. Angkat",
+            "Kocok lepas telur dengan garam dan merica",
+            "Dadar telur melebar ke permukaan wajan. Masak hingga matang kedua sisinya. Angkat",
+            "Dadar telur melebar ke permukaan wajan. Masak hingga matang kedua sisinya. Angkat",
+            "Tata nasi di atas piring saji",
+            "Beri lauk serundeng, semur tahu, bihun goreng, dan telur dadar",
+            "Siap disajikan",
+        ],
+        shortDesc: ""
     },
     {
         id: 7,
         nama: "Semur Jengkol",
         desc: "Semur Jengkol adalah hidangan khas Betawi yang terbuat dari jengkol yang dimasak dengan bumbu rempah seperti bawang merah, bawang putih, ketumbar, dan lengkuas, serta tambahan gula merah, kecap manis, dan santan untuk menciptakan kuah kental beraroma. Rasanya gurih manis dengan aroma rempah yang khas, sering disajikan sebagai lauk pendamping nasi.",
-        Kategori: "Semur, Jengkol, Pedas",
-        image: "",
+        Kategori: "Semur, Jengkol, Pedas, Lauk",
+        image: "SemurJengkol.jpg",
         bahan: [
             "300 g jengkol tua",
             "6 butir bawang merah, iris tipis",
@@ -221,14 +274,19 @@ const Food = [
             "1/4 buah pala",
             "Sejumput jinten"
         ],
-        cara: [],
+        cara: [
+            "Cuci jengkol, belah lalu rebus dengan air cucian beras sampai empuk (tujuannya untuk menghilangkan bau menyengat pada jengkol)",
+            "Setelah jengkol empuk angkat, bilas dengan air bersih bila perlu, tiriskan lalu memarkan",
+            "Tumis bawang merah iris sampai matang kecoklatan, masukkan bumbu halus, tomat dan daun salam, aduk rata sampai bumbu matang, masukkan jengkol, tuangi air, biarkan mendidih lalu masukkan garam, gula merah dan kecap manis, masak sampai bumbu meresap, koreksi rasa, bila sudah pas matikan api, sajikan",
+        ],
+        shortDesc: ""
     },
     {
         id: 8,
         nama: "Ayam Sampyok",
         desc: "Ayam Sampyok adalah hidangan khas Betawi yang terdiri dari potongan ayam yang dimarinasi dengan bumbu rempah seperti bawang merah, bawang putih, jahe, kunyit, dan kemiri, lalu dipanggang atau dibakar hingga matang dengan aroma harum yang khas. Biasanya disajikan dengan sambal dan lalapan sebagai pelengkap.",
         Kategori: "Ayam, Kacang, Santan",
-        image: "",
+        image: "AyamSamyok.jpg",
         bahan: [
             "1 ekor ayam, belah bagian dada, lebarkan",
             "[Bahan Marinasi]",
@@ -260,14 +318,20 @@ const Food = [
             "[Pelengkap]",
             "Sambal dan lalap"
         ],
-        cara: [],
+        cara: [
+            "Marinasi ayam dengan jeruk nipis/lemon dan garam. Diamkan sekitar 1/2 jam",
+            "Tumis bumbu iris sampai harum. Masukkan bumbu halus (kecuali kacang tanah), teruskan menumis. Masukkan bumbu cemplung, teruskan menumis. Tambahkan kacang tanah goreng yang sudah dihaluskan",
+            "Masukkan ayam, aduk rata. Tuang santan, aduk-aduk, tutup, didihkan. Koreksi rasa. Ungkep sampai ayam empuk dan bumbu meresap",
+            "Panggang/bakar ayam dengan arang atau grill pan sambil olesi sisa bumbu ungkep. Angkat, sajikan bersama pelengkap",
+        ],
+        shortDesc: ""
     },
     {
         id: 9,
         nama: "Nasi Kebuli",
         desc: "Nasi Kebuli adalah hidangan nasi yang berasal dari Timur Tengah namun populer di Indonesia, terdiri dari nasi yang dimasak dengan rempah-rempah seperti kayu manis, cengkeh, dan kapulaga, kemudian ditambahkan dengan potongan daging kambing atau domba yang diolah dengan bumbu khusus dan kacang-kacangan. Rasanya gurih, harum rempah, dan dagingnya lembut, sering disajikan dalam acara-acara spesial.",
         Kategori: "Nasi, Daging, Sapi",
-        image: "",
+        image: "NasiKebuli.jpg",
         bahan: [
             "400 g daging sapi has dalam potong dadu",
             "800 g beras bulir panjang",
@@ -291,14 +355,21 @@ const Food = [
             "3 sdm bawang merah goreng",
             "Acar nanas"
         ],
-        cara: [],
+        cara: [
+            "Panaskan margarin, tumis bumbu halus, bawang bombay, kayu manis, pala, cengkih, dan kapulaga hingga harum",
+            "Masukkan daging sapi, aduk rata. Masak hingga daging kaku. Masukkan beras, aduk rata",
+            "Tuang air, garam, dan Royco Kaldu Sapi, aduk. Masak hingga air terserap habis, tambahkan kismis, aduk rata. Angkat",
+            "Kukus dalam dandang panas hingga matang. Angkat",
+            "Sajikan bersama pelengkap",
+        ],
+        shortDesc: ""
     },
     {
         id: 10,
         nama: "Nasi Uduk Betawi",
         desc: "Nasi Uduk adalah hidangan khas Betawi yang terdiri dari nasi yang dimasak dengan santan, serai, daun salam, dan daun jeruk, memberikan aroma harum yang khas. Biasanya disajikan dengan pelengkap seperti ayam goreng, telur, tempe goreng, sambal, dan krupuk, menjadi hidangan sarapan atau makanan sehari-hari yang populer di Jakarta.",
         Kategori: "Nasi, Kentang, Tempe, Semur",
-        image: "",
+        image: "NasiUduk.jpg",
         bahan: [
             "[Nasi]",
             "400 g beras",
@@ -355,7 +426,21 @@ const Food = [
             "50 ml air",
             "Minyak untuk menggoreng secukupnya"
         ],
-        cara: [],
+        cara: [
+            "Cuci beras hingga bersih, lalu kukus sampai setengah matang, sisihkan",
+            "Rebus santan. Tambahkan daun salam, jahe, lengkuas, dan garam, masak hingga mendidih. Masukkan beras, aduk aduk lalu matikan apinya",
+            "Aduk terus sampai santan terserap habis. Kukus beras selama 30 menit atau sampai matang",
+            "Giling atau tumbuk halus cabe merah, cabe rawit, bawang putih, dan kacang tanah",
+            "Lalu tuang air panas, cuka, garam, dan gula, aduk hingga merata",
+            "Haluskan bawang merah dan bawang putih goreng",
+            "Masukkan kentang goreng tumbuk, aduk hingga merata",
+            "Masukkan daun bawang, garam, dan merica bubuk. Aduk hingga merata. Icip dan sesuaikan rasanya",
+            "Bentuk adonan perkedel menjadi bola-bola dengan tangan, sambil dipadatkan supaya tidak pecah saat digoreng. Pipihkan kemudian celupkan ke kocokan telur",
+            "Goreng dalam minyak panas hingga coklat keemasan",
+            "angkat dan tiriskan",
+            "Siap disajikan",
+        ],
+        shortDesc:"",
     },    
     {
         id: 11,
@@ -391,14 +476,13 @@ const Food = [
             "Jeruk limau",
             "Kecap manis"
         ],
-        cara: [],
     },
     {
         id: 12,
         nama: "Kerak Telor",
         desc: "Kerak Telor adalah makanan khas Betawi berupa adonan tepung beras yang digoreng dengan telur ayam dan bumbu-bumbu seperti ebi, bawang merah, dan kelapa parut, kemudian disajikan dengan taburan bawang goreng dan serundeng. Rasanya gurih dengan aroma harum yang khas, sering dijumpai di festival atau acara khusus di Jakarta seperti Pekan Raya Jakarta (PRJ).",
         Kategori: "Telur, Telor",
-        image: "",
+        image: "KerakTelor.jpg",
         bahan: [
             "100 g beras ketan, bersihkan dan rendam dalam air selama 2 jam",
             "5 butir telur bebek",
@@ -410,7 +494,8 @@ const Food = [
             "5 butir cabai",
             "2,5 sdt bubuk merica"
         ],
-        cara: [],
+        cara:[],
+        shortDesc:"",
     },
     {
         id: 13,
@@ -459,7 +544,7 @@ const Food = [
         nama: "Kue Ape",
         desc: "Kue Ape adalah camilan tradisional Betawi yang terbuat dari campuran tepung terigu, telur, santan, dan gula, yang kemudian dipanggang dalam cetakan khusus hingga matang dan berwarna keemasan. Rasanya manis gurih dengan tekstur yang lembut di tengah dan renyah di pinggirnya, sering dijumpai di pasar-pasar tradisional di Jakarta.",
         Kategori: "Kue, Tepung, Telur",
-        image: "",
+        image: "KueApe.jpg",
         bahan: [
             "100 g tepung beras",
             "50 g tepung terigu",
@@ -472,14 +557,15 @@ const Food = [
             "200 ml air",
             "3 tetes perisa pandan"
         ],
-        cara: [],
+        cara:[],
+        shortDesc:"",
     },
     {
         id: 15,
         nama: "Dodol Betawi",
         desc: "Dodol Betawi adalah kue tradisional khas Betawi yang terbuat dari campuran ketan, gula merah, santan, dan kelapa parut yang dimasak hingga mengental. Biasanya disajikan dalam bentuk blok padat dengan rasa manis yang khas dan aroma santan yang lezat. Dodol Betawi sering dijadikan sebagai oleh-oleh khas dari Jakarta.",
         Kategori: "Ketan, Santan",
-        image: "",
+        image: "Dodol.jpg",
         bahan: [
             "1 kg beras ketan",
             "700 g gula merah",
@@ -488,13 +574,14 @@ const Food = [
             "4 lembar daun pandan"
         ],
         cara: [],
+        shortDesc:"",
     },
     {
         id: 16,
         nama: "Kembang Goyang",
         desc: "Kembang Goyang adalah camilan ringan khas Betawi berupa adonan tepung beras yang digoreng hingga kembang dan berongga, kemudian disajikan dengan taburan gula halus. Rasanya renyah, manis, dan sering menjadi favorit di berbagai acara atau sebagai oleh-oleh khas dari Jakarta.",
         Kategori: "Manisan, Tepung, Santan, Telur",
-        image: "",
+        image: "KembangGoyang.jpg",
         bahan: [
             "200 g tepung beras",
             "50 g tepung tapioka",
@@ -507,6 +594,7 @@ const Food = [
             "2 sdm margarin, dicairkan"
         ],
         cara: [],
+        shortDesc:"",
     },
     {
         id: 17,
@@ -525,13 +613,14 @@ const Food = [
             "Susu cair dingin"
         ],
         cara: [],
+        shortDesc:"",
     },
     {
         id: 18,
         nama: "Kue Pancong (Kelapa)",
         desc: "Kue Pancong adalah jajanan tradisional Betawi berbentuk cawan dengan pinggiran yang bergerigi, terbuat dari campuran tepung beras, kelapa parut, gula, santan, dan sedikit garam, kemudian dipanggang hingga matang dan berwarna kecokelatan. Rasanya gurih, manis, dan harum kelapa, sering dijadikan camilan favorit di Jakarta.",
         Kategori: "Kue, Tepung, Santan, Kelapa",
-        image: "",
+        image: "KuePancong.jpg",
         bahan: [
             "250 g tepung beras",
             "250 g kelapa setengah tua, kerok & parut memanjang",
@@ -540,6 +629,7 @@ const Food = [
             "1 sdt garam"
         ],
         cara: [],
+        shortDesc:"",
     },
     {
         id: 19,
@@ -577,6 +667,7 @@ const Food = [
             "Emping"
         ],
         cara: [],
+        shortDesc:"",
     },
     {
         id: 20,
@@ -597,7 +688,8 @@ const Food = [
             "1/2 sdt garam",
             "1 lembar daun pandan"
         ],
-        cara: [],
+        cara:[],
+        shortDesc:"",
     },
 ];
 

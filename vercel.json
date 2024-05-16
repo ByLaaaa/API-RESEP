@@ -8,8 +8,12 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/"
+            "src": "/Food",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/img/(.*)",
+            "dest": "/index.js"
         }
     ]
 }

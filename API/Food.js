@@ -4,7 +4,7 @@ const Food = [
         nama: "Soto Betawi",
         desc: "Hai",
         Kategori: "Kuah, Santan",
-        image: "./",
+        image: "",
         bahan: [],
         cara: [],
         shortDesc: ""

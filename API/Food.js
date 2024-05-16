@@ -51,7 +51,7 @@
             nama: "Ketoprak",
             desc: "Ketoprak adalah makanan khas Jakarta yang terdiri dari lontong, tahu goreng, bihun, dan tauge, disajikan dengan bumbu kacang yang gurih, kecap manis, dan taburan bawang goreng. Hidangan ini biasanya dilengkapi dengan kerupuk dan potongan mentimun untuk menambah kesegaran. ",
             Kategori: "Sayur, Kacang, Tahu, Lontong",
-            image: "../../../../public/assets/img/Ketoprak.jg",
+            image: "../../../../public/assets/img/Ketoprak.jpg",
             bahan: [
                 "2 buah tahu putih",
                 "2 buah ketupat, potong",
@@ -160,7 +160,7 @@
             nama: "Kue Geplak",
             desc: "Kue Geplak adalah jajanan tradisional Jawa Tengah yang terbuat dari campuran kelapa parut, gula merah, dan tepung ketan yang kemudian dipadatkan dan dibentuk bulat pipih. Rasanya manis gurih dengan tekstur yang kenyal, sering menjadi pilihan camilan yang lezat di Indonesia.",
             Kategori: "Kue, Kelapa",
-            image: "../../../../public/assets/img/",
+            image: "../../../../public/assets/img/KueGeplak.jpg",
             bahan: [
                 "1 kg tepung beras giling (atau tepung kemasan)",
                 "1 butir kelapa parut",
@@ -457,7 +457,7 @@
             nama: "Laksa Betawi",
             desc: "Laksa Betawi adalah hidangan khas Betawi yang terdiri dari mie tebal yang disajikan dalam kuah santan beraroma rempah seperti kunyit, ketumbar, dan lengkuas, ditambahkan dengan potongan daging sapi, telur rebus, tauge, kacang panjang, dan kadang-kadang jeroan. Rasanya kaya dan gurih dengan sentuhan pedas dan segar, sering dihidangkan dengan perasan jeruk nipis dan emping sebagai tambahan.",
             Kategori: "Kuah, Kaldu, Ayam",
-            image: "../../../../public/assets/img/",
+            image: "../../../../public/assets/img/LaksaBetawi.jpg",
             bahan: [
                 "1/2 ekor ayam kampung",
                 "1200 ml air, untuk merebus",
@@ -540,7 +540,7 @@
             nama: "Gabus Pucung",
             desc: "Gabus Pucung adalah hidangan khas Betawi yang terdiri dari ikan gabus yang digoreng dan disajikan dengan bumbu pedas manis yang terbuat dari cabai, bawang merah, bawang putih, dan gula merah yang dimasak hingga mengental. Rasanya pedas, manis, dan gurih dengan tekstur ikan yang lembut, sering menjadi hidangan favorit di warung makan Betawi.",
             Kategori: "Ikan, Santan, Pedas",
-            image: "../../../../public/assets/img/",
+            image: "../../../../public/assets/img/GabusPucung.jpg",
             bahan: [
                 "1 ekor ikan gabus",
                 "2 sdm air jeruk nipis",
@@ -693,7 +693,7 @@
             nama: "Roti Buaya",
             desc: "Roti Buaya adalah makanan khas Betawi yang berbentuk seperti buaya dan terbuat dari campuran tepung terigu, gula, dan margarin yang digoreng hingga renyah. Rasanya manis dengan tekstur yang renyah di luar dan lembut di dalamnya, sering dijumpai di pasar tradisional atau acara-acara festival di Jakarta.",
             Kategori: "Manisan, Roti, Tepung, Telur",
-            image: "../../../../public/assets/img/",
+            image: "../../../../public/assets/img/RotiBuaya.jpg",
             bahan: [
                 "500 g tepung cakra",
                 "1 sdm ragi",
@@ -749,7 +749,7 @@
             nama: "Sayur Babanci",
             desc: "Sayur Babanci adalah hidangan khas Betawi yang terdiri dari campuran berbagai jenis sayuran seperti kacang panjang, terong, tahu, tempe, dan daun singkong yang dimasak dengan kuah santan kental yang diberi bumbu rempah seperti kemiri, lengkuas, dan kunyit. Rasanya gurih dan kaya akan rempah, sering disajikan sebagai lauk pendamping nasi dalam hidangan khas Betawi.",
             Kategori: "Sayur, Santan, Kelapa",
-            image: "../../../../public/assets/img/",
+            image: "../../../../public/assets/img/SayurBabanci.jpg",
             bahan: [
                 "500 g daging sapi, rebus dengan +/- 1 liter air",
                 "50 g kelapa parut, sangrai lalu haluskan",
@@ -798,7 +798,7 @@
             nama: "Putu Mayang",
             desc: "Putu Mayang adalah hidangan manis tradisional dari Indonesia, terutama dikenal di daerah Betawi. Terbuat dari tepung beras yang dibentuk seperti mie halus, kemudian direbus hingga matang. Setelah matang, putu mayang disajikan dengan kuah santan yang manis dan pandan. Hidangan ini memiliki tekstur lembut dan aromanya yang khas, sering disajikan sebagai makanan penutup atau camilan.",
             Kategori: "Tepung, Santan",
-            image: "../../../../public/assets/img/",
+            image: "../../../../public/assets/img/PutuMayang.jpg",
             bahan: [
                 "150 g tepung beras",
                 "50 g tepung tapioka",

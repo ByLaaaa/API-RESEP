@@ -3,7 +3,7 @@
             id: 1,
             nama: "Soto Betawi",
             desc: "Soto Betawi adalah hidangan khas Jakarta berupa sup berkuah santan yang kaya akan rempah, disajikan dengan potongan daging sapi atau jeroan, kentang, dan tomat. Rasanya gurih dan lezat, sering dinikmati dengan tambahan emping, bawang goreng, dan perasan jeruk limau.",
-            Kategori: "Kuah, Santan",
+            Kategori: ["Kuah", "Santan"],
             image: "../../../../public/assets/img/SotoBetawi.jpg",
             bahan: [
                 "500 g daging sapi has bagian sandung lamur, potong-potong",
@@ -50,7 +50,7 @@
             id: 2,
             nama: "Ketoprak",
             desc: "Ketoprak adalah makanan khas Jakarta yang terdiri dari lontong, tahu goreng, bihun, dan tauge, disajikan dengan bumbu kacang yang gurih, kecap manis, dan taburan bawang goreng. Hidangan ini biasanya dilengkapi dengan kerupuk dan potongan mentimun untuk menambah kesegaran. ",
-            Kategori: "Sayur, Kacang, Tahu, Lontong",
+            Kategori: ["Sayur", "Kacang", "Tahu", "Lontong"],
             image: "../../../../public/assets/img/Ketoprak.jg",
             bahan: [
                 "2 buah tahu putih",
@@ -83,7 +83,7 @@
             id: 3,
             nama: "Sayur Besan",
             desc: "Sayur Besan adalah hidangan tradisional Betawi yang biasanya disajikan pada acara pernikahan, terdiri dari terubuk (bungkil bunga tebu), ebi, kentang, dan kacang panjang yang dimasak dalam kuah santan beraroma rempah. Rasanya gurih dan sedikit manis, mencerminkan kekayaan kuliner Betawi.",
-            Kategori: "Kuah, Santan, Sayur, Lauk, Pendamping",
+            Kategori: ["Kuah", "Santan", "Sayur", "Lauk", "Pendamping"],
             image: "../../../../public/assets/img/sayur besan_L.jpg",
             bahan: [
                 "8 batang telur terubuk/bunga tebu",
@@ -118,7 +118,7 @@
             id: 4,
             nama: "Asinan Betawi",
             desc: "Asinan Betawi adalah hidangan segar berupa campuran potongan buah-buahan seperti nanas, mangga muda, timun, dan kacang panjang yang direndam dalam larutan air asam yang manis pedas, biasanya disajikan dengan tambahan kerupuk dan bawang goreng sebagai pelengkap.",
-            Kategori: "Sayur, Cemilan, Pendamping",
+            Kategori: ["Sayur", "Cemilan", "Pendamping"],
             image: "../../../../public/assets/img/Asinan.jpg",
             bahan: [
                 "250 g tahu putih, kukus, potong dadu",
@@ -159,7 +159,7 @@
             id: 5,
             nama: "Kue Geplak",
             desc: "Kue Geplak adalah jajanan tradisional Jawa Tengah yang terbuat dari campuran kelapa parut, gula merah, dan tepung ketan yang kemudian dipadatkan dan dibentuk bulat pipih. Rasanya manis gurih dengan tekstur yang kenyal, sering menjadi pilihan camilan yang lezat di Indonesia.",
-            Kategori: "Kue, Kelapa",
+            Kategori: ["Kue", "Kelapa"],
             image: "../../../../public/assets/img/",
             bahan: [
                 "1 kg tepung beras giling (atau tepung kemasan)",
@@ -186,7 +186,7 @@
             id: 6,
             nama: "Nasi Ulam",
             desc: " Nasi Ulam adalah hidangan nasi yang dicampur dengan rempah-rempah, daun-daunan segar seperti daun kemangi, daun jeruk purut, dan daun serai, serta bumbu-bumbu lainnya seperti serai, lengkuas, dan bawang merah yang diuleg hingga harum. Biasanya disajikan dengan lauk seperti ayam goreng, ikan bakar, atau tempe goreng.",
-            Kategori: "Nasi, Lauk, Bihun",
+            Kategori: ["Nasi", "Lauk", "Bihun"],
             image: "../../../../public/assets/img/NasiUlam.jpg",
             bahan: [
                 "[Nasi]",
@@ -260,7 +260,7 @@
             id: 7,
             nama: "Semur Jengkol",
             desc: "Semur Jengkol adalah hidangan khas Betawi yang terbuat dari jengkol yang dimasak dengan bumbu rempah seperti bawang merah, bawang putih, ketumbar, dan lengkuas, serta tambahan gula merah, kecap manis, dan santan untuk menciptakan kuah kental beraroma. Rasanya gurih manis dengan aroma rempah yang khas, sering disajikan sebagai lauk pendamping nasi.",
-            Kategori: "Semur, Jengkol, Pedas, Lauk",
+            Kategori: ["Semur", "Jengkol", "Pedas", "Lauk"],
             image: "../../../../public/assets/img/SemurJengkol.jpg",
             bahan: [
                 "300 g jengkol tua",
@@ -292,7 +292,7 @@
             id: 8,
             nama: "Ayam Sampyok",
             desc: "Ayam Sampyok adalah hidangan khas Betawi yang terdiri dari potongan ayam yang dimarinasi dengan bumbu rempah seperti bawang merah, bawang putih, jahe, kunyit, dan kemiri, lalu dipanggang atau dibakar hingga matang dengan aroma harum yang khas. Biasanya disajikan dengan sambal dan lalapan sebagai pelengkap.",
-            Kategori: "Ayam, Kacang, Santan",
+            Kategori: ["Ayam", "Kacang", "Santan"],
             image: "../../../../public/assets/img/AyamSamyok.jpg",
             bahan: [
                 "1 ekor ayam, belah bagian dada, lebarkan",
@@ -338,7 +338,7 @@
             id: 9,
             nama: "Nasi Kebuli",
             desc: "Nasi Kebuli adalah hidangan nasi yang berasal dari Timur Tengah namun populer di Indonesia, terdiri dari nasi yang dimasak dengan rempah-rempah seperti kayu manis, cengkeh, dan kapulaga, kemudian ditambahkan dengan potongan daging kambing atau domba yang diolah dengan bumbu khusus dan kacang-kacangan. Rasanya gurih, harum rempah, dan dagingnya lembut, sering disajikan dalam acara-acara spesial.",
-            Kategori: "Nasi, Daging, Sapi",
+            Kategori: ["Nasi", "Daging", "Sapi"],
             image: "../../../../public/assets/img/NasiKebuli.jpg",
             bahan: [
                 "400 g daging sapi has dalam potong dadu",
@@ -377,7 +377,7 @@
             id: 10,
             nama: "Nasi Uduk Betawi",
             desc: "Nasi Uduk adalah hidangan khas Betawi yang terdiri dari nasi yang dimasak dengan santan, serai, daun salam, dan daun jeruk, memberikan aroma harum yang khas. Biasanya disajikan dengan pelengkap seperti ayam goreng, telur, tempe goreng, sambal, dan krupuk, menjadi hidangan sarapan atau makanan sehari-hari yang populer di Jakarta.",
-            Kategori: "Nasi, Kentang, Tempe, Semur",
+            Kategori: ["Nasi", "Kentang", "Tempe", "Semur"],
             image: "../../../../public/assets/img/NasiUduk.jpg",
             bahan: [
                 "[Nasi]",
@@ -456,7 +456,7 @@
             id: 11,
             nama: "Laksa Betawi",
             desc: "Laksa Betawi adalah hidangan khas Betawi yang terdiri dari mie tebal yang disajikan dalam kuah santan beraroma rempah seperti kunyit, ketumbar, dan lengkuas, ditambahkan dengan potongan daging sapi, telur rebus, tauge, kacang panjang, dan kadang-kadang jeroan. Rasanya kaya dan gurih dengan sentuhan pedas dan segar, sering dihidangkan dengan perasan jeruk nipis dan emping sebagai tambahan.",
-            Kategori: "Kuah, Kaldu, Ayam",
+            Kategori: ["Kuah", "Kaldu", "Ayam"],
             image: "../../../../public/assets/img/",
             bahan: [
                 "1/2 ekor ayam kampung",
@@ -504,7 +504,7 @@
             id: 12,
             nama: "Kerak Telor",
             desc: "Kerak Telor adalah makanan khas Betawi berupa adonan tepung beras yang digoreng dengan telur ayam dan bumbu-bumbu seperti ebi, bawang merah, dan kelapa parut, kemudian disajikan dengan taburan bawang goreng dan serundeng. Rasanya gurih dengan aroma harum yang khas, sering dijumpai di festival atau acara khusus di Jakarta seperti Pekan Raya Jakarta (PRJ).",
-            Kategori: "Telur, Telor",
+            Kategori: ["Telur", "Lauk", "Kelapa"],
             image: "../../../../public/assets/img/KerakTelor.jpg",
             bahan: [
                 "100 g beras ketan, bersihkan dan rendam dalam air selama 2 jam",
@@ -539,7 +539,7 @@
             id: 13,
             nama: "Gabus Pucung",
             desc: "Gabus Pucung adalah hidangan khas Betawi yang terdiri dari ikan gabus yang digoreng dan disajikan dengan bumbu pedas manis yang terbuat dari cabai, bawang merah, bawang putih, dan gula merah yang dimasak hingga mengental. Rasanya pedas, manis, dan gurih dengan tekstur ikan yang lembut, sering menjadi hidangan favorit di warung makan Betawi.",
-            Kategori: "Ikan, Santan, Pedas",
+            Kategori: ["Ikan", "Santan", "Pedas"],
             image: "../../../../public/assets/img/",
             bahan: [
                 "1 ekor ikan gabus",
@@ -598,7 +598,7 @@
             id: 14,
             nama: "Kue Ape",
             desc: "Kue Ape adalah camilan tradisional Betawi yang terbuat dari campuran tepung terigu, telur, santan, dan gula, yang kemudian dipanggang dalam cetakan khusus hingga matang dan berwarna keemasan. Rasanya manis gurih dengan tekstur yang lembut di tengah dan renyah di pinggirnya, sering dijumpai di pasar-pasar tradisional di Jakarta.",
-            Kategori: "Kue, Tepung, Telur",
+            Kategori: ["Kue", "Tepung", "Telur"],
             image: "../../../../public/assets/img/KueApe.jpg",
             bahan: [
                 "100 g tepung beras",
@@ -631,7 +631,7 @@
             id: 15,
             nama: "Dodol Betawi",
             desc: "Dodol Betawi adalah kue tradisional khas Betawi yang terbuat dari campuran ketan, gula merah, santan, dan kelapa parut yang dimasak hingga mengental. Biasanya disajikan dalam bentuk blok padat dengan rasa manis yang khas dan aroma santan yang lezat. Dodol Betawi sering dijadikan sebagai oleh-oleh khas dari Jakarta.",
-            Kategori: "Ketan, Santan",
+            Kategori: ["Ketan", "Santan"],
             image: "../../../../public/assets/img/Dodol.jpg",
             bahan: [
                 "1 kg beras ketan",
@@ -662,7 +662,7 @@
             id: 16,
             nama: "Kembang Goyang",
             desc: "Kembang Goyang adalah camilan ringan khas Betawi berupa adonan tepung beras yang digoreng hingga kembang dan berongga, kemudian disajikan dengan taburan gula halus. Rasanya renyah, manis, dan sering menjadi favorit di berbagai acara atau sebagai oleh-oleh khas dari Jakarta.",
-            Kategori: "Manisan, Tepung, Santan, Telur",
+            Kategori: ["Manisan", "Tepung", "Santan", "Telur"],
             image: "../../../../public/assets/img/KembangGoyang.jpg",
             bahan: [
                 "200 g tepung beras",
@@ -692,7 +692,7 @@
             id: 17,
             nama: "Roti Buaya",
             desc: "Roti Buaya adalah makanan khas Betawi yang berbentuk seperti buaya dan terbuat dari campuran tepung terigu, gula, dan margarin yang digoreng hingga renyah. Rasanya manis dengan tekstur yang renyah di luar dan lembut di dalamnya, sering dijumpai di pasar tradisional atau acara-acara festival di Jakarta.",
-            Kategori: "Manisan, Roti, Tepung, Telur",
+            Kategori: ["Manisan", "Roti", "Tepung", "Telur"],
             image: "../../../../public/assets/img/",
             bahan: [
                 "500 g tepung cakra",
@@ -721,7 +721,7 @@
             id: 18,
             nama: "Kue Pancong (Kelapa)",
             desc: "Kue Pancong adalah jajanan tradisional Betawi berbentuk cawan dengan pinggiran yang bergerigi, terbuat dari campuran tepung beras, kelapa parut, gula, santan, dan sedikit garam, kemudian dipanggang hingga matang dan berwarna kecokelatan. Rasanya gurih, manis, dan harum kelapa, sering dijadikan camilan favorit di Jakarta.",
-            Kategori: "Kue, Tepung, Santan, Kelapa",
+            Kategori: ["Kue", "Tepung", "Santan", "Kelapa"],
             image: "../../../../public/assets/img/KuePancong.jpg",
             bahan: [
                 "250 g tepung beras",
@@ -748,7 +748,7 @@
             id: 19,
             nama: "Sayur Babanci",
             desc: "Sayur Babanci adalah hidangan khas Betawi yang terdiri dari campuran berbagai jenis sayuran seperti kacang panjang, terong, tahu, tempe, dan daun singkong yang dimasak dengan kuah santan kental yang diberi bumbu rempah seperti kemiri, lengkuas, dan kunyit. Rasanya gurih dan kaya akan rempah, sering disajikan sebagai lauk pendamping nasi dalam hidangan khas Betawi.",
-            Kategori: "Sayur, Santan, Kelapa",
+            Kategori: ["Sayur", "Santan", "Kelapa"],
             image: "../../../../public/assets/img/",
             bahan: [
                 "500 g daging sapi, rebus dengan +/- 1 liter air",
@@ -797,7 +797,7 @@
             id: 20,
             nama: "Putu Mayang",
             desc: "Putu Mayang adalah hidangan manis tradisional dari Indonesia, terutama dikenal di daerah Betawi. Terbuat dari tepung beras yang dibentuk seperti mie halus, kemudian direbus hingga matang. Setelah matang, putu mayang disajikan dengan kuah santan yang manis dan pandan. Hidangan ini memiliki tekstur lembut dan aromanya yang khas, sering disajikan sebagai makanan penutup atau camilan.",
-            Kategori: "Tepung, Santan",
+            Kategori: ["Tepung", "Santan"],
             image: "../../../../public/assets/img/",
             bahan: [
                 "150 g tepung beras",

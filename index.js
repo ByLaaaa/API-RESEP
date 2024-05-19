@@ -5,14 +5,14 @@ const app = express();
 const port = process.env.PORT || 3001;
 const Food = require('./API/Food.js');
 
-app.use(cors());
+app.use(cors()); // Mengizinkan semua origin
 app.use(express.json());
 
 app.use('/img', express.static(path.join(__dirname, 'public', 'img')));
 
-app.get('/Food', (req, res)=> {
+app.get('/Food', (req, res) => {
     res.json(Food);
-}); 
+});
 
 app.get('/img/:imageName', (req, res) => {
     const imageName = req.params.imageName;
@@ -27,7 +27,11 @@ app.get('/img/:imageName', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Welcome to API')
+    res.send('Welcome to API');
+});
+
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
 });
 
 module.exports = app;
